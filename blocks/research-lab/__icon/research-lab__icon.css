@@ -1,0 +1,16 @@
+.research-lab__icon {
+    background-size: 24px 23px;
+    background-repeat: no-repeat;
+    min-width: 576px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+    background-image: url('../../../styles/images/Lab/lab.svg');
+}
+
+@media screen and (max-width: 1220px) {
+    .research-lab__icon {
+        background-image: none;
+        min-width: 330px;
+    }
+}

@@ -1,0 +1,21 @@
+.research-lab__img_second {
+    background-image: url("../../../../styles/images/Lab/image 35.png");
+    background-size: 264px 276px;
+}
+
+@media screen and (max-width: 1220px) {
+    .research-lab__img_second {
+        background-size: 330px 240px;
+        min-width: 330px;
+        min-height: 240px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .research-lab__img_second {
+        min-height: 180px;
+        min-width: 288px;
+        background-size: 288px 180px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+.table__description {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1220px) {
+    .table__description{
+        font-size: 10px;
+        line-height: 13px;
+    }
+}

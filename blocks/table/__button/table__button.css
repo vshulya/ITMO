@@ -1,0 +1,25 @@
+.table__button {
+    color: #001337;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    height: 30px;
+    width: 215px;
+    background-color: inherit;
+    border: 1px solid #001337;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1220px) {
+    .table__button {
+        width: 126px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .table__button {
+        width: 120px;
+    }
+}
