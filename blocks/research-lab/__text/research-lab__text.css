@@ -1,0 +1,35 @@
+.research-lab__text {
+    color: #000D26;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 540px;
+    margin: 0;
+}
+
+.research-lab__text:first-of-type {
+    margin-bottom: 20px;
+    margin-left: 36px;
+}
+
+@media screen and (max-width: 1220px) {
+    .research-lab__text {
+        max-width: 330px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 0;
+    }
+
+    .research-lab__text:first-of-type {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .research-lab__text {
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 288px;
+        font-weight: 400;
+        margin: 0;
+    }
+}

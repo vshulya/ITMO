@@ -1,0 +1,10 @@
+.research-lab__img_first {
+    background-image: url("../../../../styles/images/Lab/image 38.png");
+    background-size: 264px 276px;
+}
+
+@media screen and (max-width: 1220px) {
+    .research-lab__img_first {
+        background-image: none;
+    }
+}

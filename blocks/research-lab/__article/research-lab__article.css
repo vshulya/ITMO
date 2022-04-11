@@ -1,0 +1,22 @@
+.research-lab__article {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto 80px;
+    display: flex;
+}
+
+@media screen and (max-width: 1220px) {
+    .research-lab__article {
+        justify-content: center;
+        margin-bottom: 50px;
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .research-lab__article {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 0;
+    }
+}

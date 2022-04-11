@@ -1,0 +1,17 @@
+.research-lab__img {
+    max-height: 276px;
+    min-width: 264px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.research-lab__img:first-of-type {
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 1220px) {
+    .research-lab__img:first-of-type {
+        min-height: 0;
+        min-width: 0;
+    }
+}
