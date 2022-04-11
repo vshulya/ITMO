@@ -16,6 +16,11 @@
         max-width: 330px;
         font-size: 14px;
         line-height: 20px;
+        margin-left: 0;
+    }
+
+    .research-lab__text:first-of-type {
+        margin-left: auto;
     }
 }
 
@@ -25,5 +30,6 @@
         line-height: 16px;
         max-width: 288px;
         font-weight: 400;
+        margin: 0;
     }
 }

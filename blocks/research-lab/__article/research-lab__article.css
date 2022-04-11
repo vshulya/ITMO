@@ -9,6 +9,7 @@
     .research-lab__article {
         justify-content: center;
         margin-bottom: 50px;
+        max-width: 690px;
     }
 }
 
