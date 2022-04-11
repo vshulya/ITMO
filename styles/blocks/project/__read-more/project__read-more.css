@@ -1,0 +1,13 @@
+.project__read-more {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #001337;
+  margin: 0;
+  text-decoration: none;
+}
+
+.project__read-more .project__read-more-arrow {
+  vertical-align: middle;
+  display: inline-block;
+}

@@ -1,0 +1,30 @@
+.project__card_size_big {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 100%;
+  background-color: #E0F0FF;
+  min-width: 540px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.project__card_size_big .project__logo {
+  position: absolute;
+  top: 20px;
+  left: 406px;
+}
+
+.project__card_size_big .project__subtitle {
+  color: #001337;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-width: 260px;
+}
+
+.project__card_size_big .project__arrow {
+  transform: scaleX(-1);
+}

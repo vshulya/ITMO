@@ -1,0 +1,8 @@
+.projects__menu {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 42px 0 0 0;
+}

@@ -1,0 +1,10 @@
+.projects__menu__link {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.project__card {
+  width: 100%;
+  max-width: 254px;
+  border-radius: 10px;
+  background-color: #009FAC;
+  box-sizing: content-box;
+  margin: auto;
+  position: relative;
+  max-height: 228px;
+}

@@ -1,0 +1,7 @@
+.project__arrow {
+  position: absolute;
+  top: 152px;
+  right: 2px;
+  z-index: 2;
+  border-radius: 36px;
+}
