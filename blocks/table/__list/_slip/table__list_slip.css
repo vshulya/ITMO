@@ -22,3 +22,29 @@
     border-color: #FFFFFF;
 
 }
+
+@media screen and (max-width: 1220px) {
+    @keyframes slip {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY(-25px);
+            background-color: #009FAC;
+        }
+    }
+}
+
+@media screen and (max-width: 705px) {
+    @keyframes slip {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY(-12px);
+            background-color: #009FAC;
+        }
+    }
+}
